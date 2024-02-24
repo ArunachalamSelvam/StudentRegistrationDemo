@@ -94,7 +94,7 @@ public class StudentDAO {
 	}
 	
 	public static boolean deleteStudent() {
-		Scanner sc  = Student.getScanner();
+		Scanner sc  = Main.getScanner();
 		System.out.print("Enter Student Id : ");
 		int id = sc.nextInt();
 		//sc.close();
